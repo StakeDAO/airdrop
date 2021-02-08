@@ -3,7 +3,7 @@ Airdrop files
 
 ## Gitcoin 8 
 
-The data was indexed in Gitcoin database which is managed by an open source codebase: https://github.com/gitcoinco/web/
+The data was indexed in Gitcoin database which is managed by an open source codebase: https://github.com/gitcoinco/web/ to include the zk list which couldn't be fetched from endpoint. 
 
 Script: 
 
