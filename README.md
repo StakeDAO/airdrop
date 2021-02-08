@@ -18,4 +18,4 @@ from
     grants_subscription
 ```
 
-Data is provided and verified by Gitcoin Team. 
+Data was verified by Gitcoin Team. 
