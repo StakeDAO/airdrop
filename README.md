@@ -19,3 +19,16 @@ from
 ```
 
 Data was verified by Gitcoin Team. 
+
+## Fix for ZkSync: 
+
+```
+select 
+    distinct contributor_address
+from 
+    grants_subscription
+INNER JOIN grants_contribution
+ON grants_contribution.subscription_id = grants_subscription.id
+where checkout_type = 'eth_zksync'
+and grants_subscription.created_on < '2020-12-17'
+```
